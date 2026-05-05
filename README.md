@@ -8,7 +8,7 @@
 
 Field and video-based study investigating the relationships between skin patterning, substrate, behavior, and light color in a recently described nocturnal octopus species.
 
-[View full research paper (PDF)](paper/Maddie_Dipseka_Izzy_CFurvusPaper.docx%20-%20Google%20Docs....pdf)
+[View full research paper (PDF)](paper/CFurvus_2023.pdf)
 
 ---
 
