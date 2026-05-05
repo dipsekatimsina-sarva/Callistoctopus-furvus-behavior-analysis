@@ -8,6 +8,8 @@
 
 Field and video-based study investigating the relationships between skin patterning, substrate, behavior, and light color in a recently described nocturnal octopus species.
 
+[View full research paper (PDF)](paper/Maddie_Dipseka_Izzy_CFurvusPaper.docx%20-%20Google%20Docs....pdf)
+
 ---
 
 ## Overview
@@ -45,12 +47,8 @@ Nine behaviors were coded: Stationary, Crawling, Jetting, Parachute Attack, Bipe
 Statistical analysis was performed in R using chi-square goodness of fit tests, post-hoc binomial tests (EMT package, Holm correction), Welch t-tests, and Wilcoxon tests.
 
 ```r
-# Core packages
 library(EMT)      # post-hoc binomial tests
 library(ggplot2)  # stacked bar charts
-
-# Chi-square goodness of fit for each behavior and substrate category
-# Wilcoxon test for white vs. red light behavioral comparison
 ```
 
 ---
@@ -59,26 +57,15 @@ library(ggplot2)  # stacked bar charts
 
 **Substrate and skin pattern:** Certain skin patterns appeared significantly more often on specific substrates. On Bedrock or Boulder, Stippled and Brick Red with White Arm Spots were overrepresented. On Green Algae, Mottle and Polka Dot were overrepresented. These patterns suggest *C. furvus* actively adjusts its coloration to match or contrast with its environment depending on context.
 
-**Behavior and skin pattern:** Mottle was significantly overrepresented during Burrowing and Parachute Attack. Polka Dot and Brick Red and White Elements appeared most during Jetting, consistent with deimatic behavior -- a strategy where prey mimics a more threatening species to deter predators. Brick Red with White Arm Spots was significantly associated with Entering Holes.
+**Behavior and skin pattern:** Mottle was significantly overrepresented during Burrowing and Parachute Attack. Polka Dot and Brick Red and White Elements appeared most during Jetting, consistent with deimatic behavior. Brick Red with White Arm Spots was significantly associated with Entering Holes.
 
-**Red vs. white light:** Stationary behavior was significantly more prevalent under red light (70.7%) compared to white light (28.6%), suggesting red light is less disruptive to natural foraging behavior. Unknown behavior was also lower under red light, indicating clearer behavioral observation.
+**Red vs. white light:** Stationary behavior was significantly more prevalent under red light (70.7%) compared to white light (28.6%), suggesting red light is less disruptive to natural foraging behavior.
 
 ---
 
 ## Implications
 
-The results suggest that *C. furvus* makes moment-to-moment decisions about skin patterning based on substrate and behavioral context, using both crypsis (blending in) and deimatic displays (standing out to intimidate) as survival strategies. Red light is a more appropriate tool for observing natural octopus behavior in future field research.
-
----
-
-## Repository Structure
-
-```
-octopus-behavior-analysis/
-├── paper/
-│   └── Timsina_Desjardins_Marquardt_CFurvus_2023.pdf
-└── README.md
-```
+The results suggest that *C. furvus* makes moment-to-moment decisions about skin patterning based on substrate and behavioral context, using both crypsis and deimatic displays as survival strategies. Red light is a more appropriate tool for observing natural octopus behavior in future field research.
 
 ---
 
